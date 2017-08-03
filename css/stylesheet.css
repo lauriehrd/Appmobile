@@ -1,0 +1,72 @@
+.contact{
+width:100%;
+height: auto;
+background: darkblue;
+
+}
+
+h1, h2, h3, h4{
+	text-transform: uppercase;
+}
+
+h1:hover{
+	text-decoration: underline;
+	color:  #f0454c;
+}
+
+.container{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	word-spacing: 2px;
+}
+body{
+  background:linear-gradient(to right,black,darkblue);
+  background-image: url(https://i.ytimg.com/vi/S8wu4ZcDMlg/maxresdefault.jpg);
+  background-position: center center;
+
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  width: 80%;
+  float:center;
+  margin:0 auto;
+  padding-top:60px;
+  
+} 
+
+p{
+  color:lightgrey;
+  margin-top:30px;
+  font-size:12px;
+  text-align:center;
+}
+.cadre{
+  width:350px;
+  height:300px;
+  margin:0 auto;
+  margin-top:90px;
+}
+button {
+
+/*  padding:12px;*/
+  color:lightgrey;
+ /* font-weight:bold;*/
+  margin-left:8px;
+  margin-right: 8px;
+  margin-top:10px;
+}
+
+input{
+ 
+  background-color:transparent;
+/*  margin:8px;*/
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+
+*{
+	color: white;
+	text-transform: uppercase;
+}
