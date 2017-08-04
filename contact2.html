@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <titre>contactez-nous</title>
+    <titre><h2>CONTACTEZ-NOUS</h2></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Montserrat" rel="stylesheet">
-    <link href="stylesheet.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
 </head>
 <body>
-  <p>coucou</p>
-  <form id="contact" method="post" action="envoi.php">
-                  <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" tabindex="1" /></p>
-          <p><label for="email">Email :</label><input type="text" id="email" name="email" tabindex="2" /></p>
-
-                              <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="50" rows="8"></textarea></p>
-
-      <div style="text-align:center;"><input type="submit" name="envoi" value=" Envoyer " /></div>
-  </form>
+  <form action="mailto:votrenom@provider.com" method="post" name="contact">
+Pseudo:
+<input name="votre nom"><p>
+Votre sexe:
+<input type="radio" name="sexe" value="homme">un homme
+<input type="radio" name="sexe" value="femme">une femme<p>
+Votre âge:
+<input type="checkbox" name="ville" value="mineur"> Mineur
+<input type="checkbox" name="ville" value="majeur"> Majeur<p>
+Votre âge exact:
+<select name="age">
+<option value="12">12
+<option value="13">13
+<option value="14">14
+</select><p>
+Votre message:<br>
+<textarea name="message" rows="2" cols="30"></textarea><p>
+<input type="submit" value="envoyer"></form>
 </body>
 <footer>
 

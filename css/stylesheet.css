@@ -1,3 +1,16 @@
-p {
-  color:red;
+body {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  max-width:100%;
+  width:100%;
+  background-image:url(http://1079638729.rsc.cdn77.org/pic/v2/gallery/preview/fon-35948.jpg)
+}
+
+h2{
+  text-align: center;
+}
+
+form{
+  align-items: center;
 }
