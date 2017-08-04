@@ -1,0 +1,50 @@
+html{
+  background-image: url(../IMG/noise-bg.png); background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  max-width:400px;
+  width: 100%;
+}
+section{
+
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+section h1{
+  display: block;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  width: 151px;
+  height: 58px;
+  color: white;
+  border: 1px;
+  background-color: crimson;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px;
+
+}
+.SM{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+body section{
+  margin: 30px;
+  /*margin-left: 100px;*/
+  border-style: solid;
+  align-content: center;
+  padding:20px 20px;
+  width: 400px;
+}
+
+div{
+  width: 400px;
+  height: 500px;
+}
